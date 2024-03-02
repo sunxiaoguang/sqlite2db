@@ -1,0 +1,12 @@
+[package]
+name = "sqlite2db"
+description = "Run SQLite on database servers"
+version = "0.0.1"
+license = "MIT"
+edition = "2021"
+
+[lib]
+crate-type = ["dylib", "staticlib", "rlib"]
+
+[dependencies]
+libc = "0.2"
